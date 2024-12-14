@@ -2,35 +2,33 @@ import React from "react";
 
 function Achiements() {
   return (
-    <div className="flex flex-col gap-[24px] items-center  py-[16px] px-[126px] h-[488px]">
-      <h1 className="text-[48px] font-[700] leading-[57.6px]">
+    <div className="grid grid-col-1 gap-6 md:gap-[54px] w-full mx-auto items-center py-[58px] md:py-20 lg:mt-[80px]  px-[24px] md:px-[126px] min-h-auto">
+      <h1 className="text-[32px] md:text-[48px] font-[700] md:leading-[41.6px] leading-[57.6px] text-center">
         Our Achivements
       </h1>
-      <p className="text-[18px] font-[400] leading-[27px] text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-        ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+      <p className="text-[12px] lg:text-[12px] xlg:text-[18px] font-[400] leading-[27px] text-center max-w-[1152px] w-full mx-auto">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
       </p>
 
-      <ul className="flex justify-between max-w-[910px] w-full gap-[80px] ">
+      <ul className="grid grid-cols-2 md:grid-cols-4  mx-auto gap-[40px] md:gap-[80px] max-w-[1152px] w-full">
         <li className="text-center">
-          <h1 className="text-[48px] font-[700] leading-[57.6px]">+200</h1>
-          <p className="text-[18px] font-[400] leading-[27px]">Courses</p>
+          <h1 className="text-[20px] lg:text-[48px] font-[700]  leading-[28px] lg:leading-[57.6px]">+200</h1>
+          <p className="text-[16px] md:text-[18px] font-[400] leading-[24px] lg:leading-[27px]">Courses</p>
         </li>
 
         <li className="text-center">
-          <h1 className="text-[48px] font-[700] leading-[57.6px]">50K</h1>
-          <p className="text-[18px] font-[400] leading-[27px]">Mentors</p>
+          <h1 className="text-[20px] lg:text-[48px] font-[700] leading-[28px] lg:leading-[57.6px]">50K</h1>
+          <p className="text-[16px] lg:text-[18px] font-[400] leading-[24px] lg:leading-[27px]">Mentors</p>
         </li>
 
         <li className="text-center">
-          <h1 className="text-[48px] font-[700] leading-[57.6px]">370k</h1>
-          <p className="text-[18px] font-[400] leading-[27px]">Students</p>
+          <h1 className="text-[20px] lg:text-[48px] font-[700] leading-[28px] lg:leading-[57.6px]">370k</h1>
+          <p className="text-[16px] lg:text-[18px] font-[400] leading-[24px] lg:leading-[27px]">Students</p>
         </li>
 
         <li className="text-center">
-          <h1 className="text-[48px] font-[700] leading-[57.6px]">100+</h1>
-          <p className="text-[18px] font-[400] leading-[27px]">Recognition</p>
+          <h1 className="text-[20px] lg:text-[48px] font-[700] leading-[28px] lg:leading-[57.6px]">100+</h1>
+          <p className="text-[16px] lg:text-[18px] font-[400] leading-[24px] lg:leading-[27px]">Recognition</p>
         </li>
       </ul>
     </div>

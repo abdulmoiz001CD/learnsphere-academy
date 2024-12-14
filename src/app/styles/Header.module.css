@@ -17,3 +17,9 @@ body {
     font-weight: 100;
     font-style: normal;
 }
+
+#ij{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

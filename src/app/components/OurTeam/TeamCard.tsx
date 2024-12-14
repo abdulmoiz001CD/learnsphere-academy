@@ -30,8 +30,11 @@ const TeamCard: React.FC<Card> = ({ img, heading, para }) => {
 
       {/* Description Section */}
       <div className="flex flex-col gap-[16px] w-full items-center p-2 pb-[22px]">
-        <h1 className="font-[600] text-[20px] leading-[30px]">{heading}</h1>
-        <p className="text-[18px] leading-[27px] line-clamp-3 text-center ">{para}</p>
+         <div className="flex flex-col  items-center">
+         <h1 className="font-[600] text-[20px] leading-[30px]" >{heading}</h1>
+         <p className="text-[16px] lg:text-[18px] leading-[27px] line-clamp-3 text-center ">{para}</p>
+         </div>
+      
 
         {/* Button and Price */}
                 <ul className="flex gap-[14px] items-center">

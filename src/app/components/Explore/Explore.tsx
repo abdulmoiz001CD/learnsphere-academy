@@ -3,10 +3,10 @@ import CourseCard from "./Card";
 
 function Courses() {
   return (
-    <div className="flex flex-col gap-[64px] items-center w-full h-[1049px] max-sm:h-[1949px] py-[112px]">
+    <div className="flex flex-col gap-[64px] items-center w-full mx-auto h-auto pt-[62px] lg:mt-[80px]">
       
-      <div className="flex flex-col gap-[24px]">
-      <h1 className="text-[48px] font-[700] leading-[57.6px]">
+      <div className="flex flex-col text-center gap-[24px]">
+      <h1 className="text-[32px] md:text-[48px] font-[700] leading-[41.6px] md:leading-[57.6px]">
         Explore Courses By Category
       </h1>
       <p
@@ -14,7 +14,7 @@ function Courses() {
         </p>
       </div>
     
-      <div className="grid grid-cols-3 md:grid-cols-3 max-sm:grid-cols-1 max-md:place-items-center gap-[32px] w-full">
+      <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3  place-items-center gap-[32px] w-full px-3 mx-auto">
       <CourseCard img='/images/Cards/card1.svg' heading ='Design & Development' para="50+ Courses Available" />
       <CourseCard img='/images/Cards/card2.svg' heading ='Marketing' para="50+ Courses Available" />
       <CourseCard img='/images/Cards/card3.svg' heading ='Development' para="50+ Courses Available" />
@@ -24,9 +24,6 @@ function Courses() {
       <CourseCard img='/images/Cards/card7.svg' heading ='Business' para="50+ Courses Available" />
       <CourseCard img='/images/Cards/card8.svg' heading ='Finance' para="50+ Courses Available" />
       <CourseCard img='/images/Cards/card9.svg' heading ='Consulting' para="50+ Courses Available" />
-      
-
-
 
       </div>
     

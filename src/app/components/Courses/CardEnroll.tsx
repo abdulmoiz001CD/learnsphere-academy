@@ -11,7 +11,7 @@ interface Card {
 
 const CardEnroll: React.FC<Card> = ({ img, heading, para ,subhead}) => {
   return (
-    <div className="flex flex-col gap-3 items-center rounded-[5px] bg-[#F7F7F7] max-w-[416px] w-full  shadow-md">
+    <div className="flex flex-col gap-3 items-center rounded-[5px] bg-[#F7F7F7] max-w-[380px] md:max-w-[416px] w-full h-[534px] shadow-md">
       
       {/* Image Section */}
       <div className="relative max-w-[416px] w-full h-[300px] overflow-hidden rounded-t-[5px]">

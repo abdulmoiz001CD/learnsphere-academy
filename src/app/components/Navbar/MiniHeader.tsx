@@ -8,7 +8,7 @@ import { FaBars } from "react-icons/fa";
 function MiniHeader() {
   return (
    <>
-   <header className='max-w-[1280px] w-full max-sm:hidden flex  justify-between items-center py-[16px] md:px-[126px] lg:px-[126px] border-b-[1px] border-[#000000]'> 
+   <header className='md:max-w-[1280px] max-sm:hidden w-full  md:flex  md:justify-between md:items-center md:py-[16px] md:px-[126px] lg:px-[126px] border-b-[1px] border-[#000000]'> 
 
 <div className='ConContact flex gap-3 items-center'>
 
