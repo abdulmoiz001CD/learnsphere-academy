@@ -55,8 +55,8 @@ export default {
   			xls: '320px',
   			xs: '375px',
   			sm: '425px',
-			xlg: '1440px',
-			xxl:'1920px'
+  			xlg: '1440px',
+  			xxl: '1920px'
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
