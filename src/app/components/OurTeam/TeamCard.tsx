@@ -18,14 +18,14 @@ const TeamCard: React.FC<Card> = ({ img, heading, para }) => {
       
       {/* Image Section */}
       <div className="relative max-w-[80px] w-full h-[80px] overflow-hidden">
-        {/* Ensure the parent container is properly constrained */}
-        <Image
-          src={img}
-          alt={`Image for ${heading}`}
-          layout="fill"
-          objectFit="cover"/>
-      </div>
-
+  <Image
+    src="http://localhost:3000/images/OurTeam/img5.svg"
+    alt={`Image for ${heading}`}
+    width={80} 
+    height={80} 
+    className="object-cover w-full h-auto" 
+  />
+</div>
 
 
       {/* Description Section */}

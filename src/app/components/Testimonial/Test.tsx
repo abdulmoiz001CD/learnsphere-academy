@@ -35,17 +35,17 @@ export default function Test() {
  
 
      <div className='flex gap-[7px] items-center'>
-     <div className='w-[8px] h-[8px] relative'><Image src='/images/Test/dot1.svg' alt='logo' layout='fill' objectFit='cover'></Image></div>
-     <div className='w-[8px] h-[8px] relative'> <Image src='/images/Test/dot2.svg' alt='logo' layout='fill' objectFit='cover'></Image></div>
-     <div className='w-[8px] h-[8px] relative'> <Image src='/images/Test/dot2.svg' alt='logo' layout='fill' objectFit='cover'></Image></div>
-     <div className='w-[8px] h-[8px] relative'> <Image src='/images/Test/dot2.svg' alt='logo' layout='fill' objectFit='cover'></Image></div>
-     <div className='w-[8px] h-[8px] relative'> <Image src='/images/Test/dot2.svg' alt='logo' layout='fill' objectFit='cover'></Image></div>
+     <div className='w-[8px] h-[8px]'><Image src='/images/Test/dot1.svg' alt='logo'  width={8} height={8} className="object-cover w-full h-full"></Image></div>
+     <div className='w-[8px] h-[8px]'> <Image src='/images/Test/dot2.svg' alt='logo' width={8} height={8} className="object-cover w-full h-full"></Image></div>
+     <div className='w-[8px] h-[8px]'> <Image src='/images/Test/dot2.svg' alt='logo' width={8} height={8} className="object-cover w-full h-full"></Image></div>
+     <div className='w-[8px] h-[8px]'> <Image src='/images/Test/dot2.svg' alt='logo' width={8} height={8} className="object-cover w-full h-full"></Image></div>
+     <div className='w-[8px] h-[8px]'> <Image src='/images/Test/dot2.svg' alt='logo' width={8} height={8} className="object-cover w-full h-full"></Image></div>
      
      </div>
 
 
  <div className='h-[58px] w-[88px] '>
-<Image src='/images/Test/arrow.svg' alt='logo' width={88} height={58}></Image>
+<Image src='/images/Test/arrow.svg' alt='logo' width={88} height={58} className='w-full h-full'></Image>
 
 
  </div>

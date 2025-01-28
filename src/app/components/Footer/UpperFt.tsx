@@ -4,7 +4,7 @@
 
 const UpperFt = () => {
     return (
-      <div className="w-full mx-auto mt-32 px-3 xlg:px-[100px] flex flex-col lg:flex-row justify-between items-start gap-8">
+      <div className="w-full mx-auto pl-[2rem] xl:pl-[0] mt-[4rem] md:mt-32 px-3 xlg:px-[100px] flex flex-col lg:flex-row justify-between items-start gap-8">
         {/* First child - Heading and Paragraph */}
         <div className="flex flex-col max-w-[500px] gap-2">
           <h2 className="text-[25px] xlg:text-3xl font-bold">Subscribe to our newsletter</h2>
@@ -21,7 +21,7 @@ const UpperFt = () => {
             className="w-[241px]  px-4 xlg:py-2 h-[40px] xlg:h-[50px] border-black border-[1px] rounded-[5px] focus:outline-none focus:ring-2"
             placeholder="Enter your email"
           />
-          <button className="max-w-[119px] xlg:py-2 h-[40px] xlg:h-auto w-full px-[24px]  border-black border-[1px] rounded-[5px] hover:bg-blue-700">
+          <button className="w-[150px]  md:w-auto py-1 xlg:py-2 md:px-[14px]  border-black border-[1px] rounded-[5px] hover:bg-[#ffd735]">
             Subscribe
           </button>
         </div>

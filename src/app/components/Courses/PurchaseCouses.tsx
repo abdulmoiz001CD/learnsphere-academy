@@ -4,10 +4,10 @@ import CardEnroll from './CardEnroll'
 
 export default function PurchaseCourses() {
    return (
-     <div className="flex flex-col gap-[60px] mx-auto w-full items-center py-[16px] h-auto ">
+     <div className="flex flex-col gap-[30px] lg:gap-[30px] xl:gap-[40px] mx-auto w-full items-center pt-[16px] h-auto ">
        <div className="flex flex-col gap-[24px] items-center">
-         <h1 className="text-[32px] md:text-[56px] font-[700] leading-[41.6px] md:leading-[67.2px]">Courses</h1>
-         <p className="text-[18px] font-[400] leading-[27px]">
+         <h1 className="text-[32px] md:text-[38px] lg:text-[48px] font-[700] leading-[41.6px] md:leading-[67.2px]">Courses</h1>
+         <p className="text-[13px] lg:text-[18px] font-[400] leading-[27px]">
            Your Ultimate Guide to Learning
          </p>
        </div>
@@ -25,8 +25,8 @@ export default function PurchaseCourses() {
        </ul>
  
   
-       <div className="container mx-auto px-4 md:px-0">
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[34px] md:px-7">
+       <div className="mx-auto px-4">
+  <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[104px] gap-x-[10rem]">
   <CardEnroll 
       img="/images/CardEn/cardEn1.svg" 
       subhead="Design" 
@@ -72,7 +72,7 @@ export default function PurchaseCourses() {
 
 
 
-         <button className="max-w-[175px] h-[48px] cursor-pointer rounded-[5px] py-[12px] px-[14px] text-[16px] leading-[24px] border-[1px] border-[#000000]">
+         <button className="max-w-[175px] max-h-[48px]  h-full cursor-pointer rounded-[5px] mt-[3rem] lg:mt-[5rem] py-[8px] lg:py-[12px] px-[14px] text-[13px] lg:text-[16px] leading-[24px] border-[1px] border-[#000000]">
           View All Courses
         </button>
       </div>

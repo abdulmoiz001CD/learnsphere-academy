@@ -11,7 +11,7 @@ import Team from './components/OurTeam/Team'
 import Test from './components/Testimonial/Test'
 import Footer from './components/Footer/Footer'
 import UpperFt from '@/app/components/Footer/UpperFt';
-import UlFoot from '@/app/components/Footer/UlFoot';
+import UlFoot from '@/app/components/Footer/MidFt';
 export default function page() {
   return (
   <>

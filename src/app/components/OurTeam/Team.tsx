@@ -4,10 +4,10 @@ import CardEnroll from './TeamCard'
 
 export default function OurTeam() {
    return (
-     <div className="flex flex-col gap-[96px] h-auto items-center px-[24px] mt-[140px]  md:px-[126px]">
+     <div className="flex flex-col gap-[4rem] md:gap-[96px] h-auto items-center px-[24px] mt-[100px]  md:mt-[140px]  md:px-[126px]">
        <div className="flex flex-col gap-[24px] items-center">
-         <h1 className="text-[32px] md:text-[48px] font-[700] leading-[41.6px] md:leading-[57.6px]">Our team</h1>
-         <p className="text-[18px] font-[400] leading-[27px] text-center">
+         <h1 className="text-[38px] md:text-[48px] font-[700] leading-[41.6px] md:leading-[57.6px]">Our Team</h1>
+         <p className="text-[15px] md:text-[18px] font-[400] leading-[27px] text-center">
          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
          </p>
        </div>

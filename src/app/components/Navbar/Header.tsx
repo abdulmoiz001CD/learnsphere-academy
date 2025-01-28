@@ -18,13 +18,14 @@ function Header() {
 
         <div className="max-w-[300px] md:max-w-[130.6px]  flex gap-[8.02px] items-center">
 
-        <div className="w-[19px] sm:w-[21px] lg:w-[32px]  xxl:w-[42px] h-auto">
+        <div className="w-[19px] sm:w-[21px] lg:w-[32px]  xxl:w-[42px] h-[9x]">
         <Image
             src="/images/Frame1.svg"
             alt="Frame 1"
             width={52}
             height={9}         
-          
+            className="w-full h-full"
+            
           />   </div>
 
      

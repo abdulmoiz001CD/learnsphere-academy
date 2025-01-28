@@ -5,10 +5,10 @@ import Image from 'next/image';
 function Logo() {
   return (
    <>
-   <div className='h-[239.34px] flex flex-col md:flex-row  md:justify-between max-sm:justify-center  gap-[34px]  md:gap-[34px]  md:items-center bg-[#F7F7F7]  md:px-2'>
+   <div className='md:h-[6rem] lg:h-[8rem]  xxl:h-[239.34px] flex flex-col md:flex-row  md:justify-between max-sm:justify-center  gap-[34px]  md:items-center bg-[#F7F7F7]  md:px-2'>
  
     <div className=''>
-        <h3 id='roboto-thin' className='max-w-[340px] w-full text-[24px] md:text-[18px] llg:text-[25px] 2xl:text-[30px] pl-3 font-[700] leading-[33.6px] text-start pt-6 md:p-0'>Trusted by 2000+ companies worldwide.</h3>
+        <h3 id='roboto-thin' className='max-w-[340px] w-full text-[24px] md:text-[15px] lg:text-[19px] xxl:text-[30px] pl-3 font-[700]  text-start pt-6 md:p-0'>Trusted by 2000+ companies worldwide.</h3>
     </div>
 
     <ul className='grid grid-cols-3 md:grid-cols-6  gap-[19.12px]'>

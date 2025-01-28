@@ -1,9 +1,11 @@
 import Image from "next/image";
+import Footer from "./Footer";
 
 
 
 const FooterListComponent = () => {
     return (
+      <>
         <div className="w-full mx-auto mt-32 px-3 xlg:px-[100px] flex flex-col lg:flex-row justify-between items-start gap-8">
         <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4  mx-auto md:mx-0 place-content-between gap-9 md:gap-20 lg:gap-[250px]">
           {/* First list with heading */}
@@ -13,7 +15,7 @@ const FooterListComponent = () => {
 <div className="max-w-[300px] md:max-w-[130.6px] h-[25px] flex gap-[8.02px] items-center">
 
     <Image
-      src="/images/Frame 1.svg"
+      src="/images/Frame1.svg"
       alt="Frame 1"
       width={32}
       height={9}
@@ -56,6 +58,8 @@ const FooterListComponent = () => {
           </div>
         </div>
       </div>
+      <Footer/>
+      </>
     );
   };
   

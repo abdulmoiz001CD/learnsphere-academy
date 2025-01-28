@@ -6,11 +6,11 @@ function Courses() {
     <div className="flex flex-col gap-[64px] items-center w-full mx-auto h-auto pt-[62px] lg:mt-[80px]">
       
       <div className="flex flex-col text-center gap-[24px]">
-      <h1 className="text-[32px] md:text-[48px] font-[700] leading-[41.6px] md:leading-[57.6px]">
+      <h1 className="text-[32px] md:text-[38px] lg:text-[48px] font-[700] leading-[41.6px] md:leading-[57.6px]">
         Explore Courses By Category
       </h1>
       <p
-        className="text-[18px] font-[400] leading-[27px]">Discover a wide range of courses covering a variety of subjects, taught by expert instructors.
+        className="text-[15px] lg:text-[18px] font-[400] leading-[27px]">Discover a wide range of courses covering a variety of subjects, taught by expert instructors.
         </p>
       </div>
     
@@ -28,7 +28,9 @@ function Courses() {
       </div>
     
   
-       <button  className="w-[155px] h-[48px] cursor-pointer rounded-[5px] py-[12px] px-[14px] text-[16px] leading-[24px] border-[1px] border-[#000000]">View All Courses</button>
+      <button className="max-w-[175px] max-h-[48px]  h-full cursor-pointer rounded-[5px] mt-[3rem] lg:mt-[5rem] py-[8px] lg:py-[12px] px-[14px] text-[13px] lg:text-[16px] leading-[24px] border-[1px] border-[#000000]">
+          View All Courses
+        </button>
 
 
     </div>

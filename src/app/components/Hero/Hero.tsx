@@ -29,7 +29,7 @@ const Hero = () => {
           alt="Learning"
           width={600}
           height={900}
-          className="object-center max-w-[800px] w-full h-[600px] md:h-[400px] lg:h-[500px] xl:h-[48rem] xxl:h-[800px]"
+          className="object-center max-w-[800px] w-full h-[600px] md:h-[400px] lg:h-[400px] xl:h-[600px] xxl:h-[800px]"
         />
       </div>
     </section>
