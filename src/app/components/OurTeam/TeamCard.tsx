@@ -19,7 +19,7 @@ const TeamCard: React.FC<Card> = ({ img, heading, para }) => {
       {/* Image Section */}
       <div className="relative max-w-[80px] w-full h-[80px] overflow-hidden">
   <Image
-    src="http://localhost:3000/images/OurTeam/img5.svg"
+    src={`${img}`}
     alt={`Image for ${heading}`}
     width={80} 
     height={80} 

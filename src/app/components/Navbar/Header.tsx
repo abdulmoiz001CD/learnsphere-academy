@@ -44,7 +44,7 @@ function Header() {
             <SheetDescription>
         
 
-<ul className="flex flex-col  space-y-4 text-center px-[6rem]">
+<ul className="flex flex-col  space-y-4 text-center">
           <li className="leading-[15px] pb-[3px] md:leading-[24px]  border-b-[1px] border-b-transparent hover:border-b-black cursor-pointer">
             Home
           </li>
