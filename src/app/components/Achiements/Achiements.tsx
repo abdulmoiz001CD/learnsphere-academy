@@ -3,7 +3,7 @@ import React from "react";
 function Achiements() {
   return (
     <div className="grid grid-col-1 gap-8 md:gap-[40px] xl:gap-[60px] w-full mx-auto items-center py-[58px] md:py-20 lg:mt-[80px]  px-[24px] md:px-[126px] min-h-auto">
-      <h1 className="text-[32px] md:text-[38px] lg:text-[48px] font-[700] md:leading-[41.6px] leading-[57.6px] text-center">
+      <h1 id="Rye" className="text-[32px] md:text-[38px] lg:text-[48px] font-[700] md:leading-[41.6px] leading-[57.6px] text-center">
         Our Achivements
       </h1>
       <p className="text-[13px] lg:text-[18px] font-[400] leading-[27px] text-center max-w-[1152px] w-full mx-auto line-clamp-2  md:line-clamp-3">

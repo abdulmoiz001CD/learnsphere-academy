@@ -6,11 +6,11 @@ function Courses() {
     <div className="flex flex-col gap-[64px] items-center w-full mx-auto h-auto pt-[62px] lg:mt-[80px]">
       
       <div className="flex flex-col text-center gap-[24px]">
-      <h1 className="text-[32px] md:text-[38px] lg:text-[48px] font-[700] leading-[41.6px] md:leading-[57.6px]">
+      <h1 id="Rye" className="text-[32px] md:text-[38px] lg:text-[48px] font-[700] leading-[41.6px] md:leading-[57.6px]">
         Explore Courses By Category
       </h1>
-      <p
-        className="text-[15px] lg:text-[18px] font-[400] leading-[27px]">Discover a wide range of courses covering a variety of subjects, taught by expert instructors.
+      <p id="inter"
+        className="px-3 text-[15px] lg:text-[18px] font-[400] leading-[27px]">Discover a wide range of courses covering a variety of subjects, taught by expert instructors.
         </p>
       </div>
     

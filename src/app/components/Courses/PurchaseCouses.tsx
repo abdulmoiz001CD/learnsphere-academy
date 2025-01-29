@@ -6,8 +6,8 @@ export default function PurchaseCourses() {
    return (
      <div className="flex flex-col gap-[30px] lg:gap-[30px] xl:gap-[40px] mx-auto w-full items-center pt-[16px] h-auto ">
        <div className="flex flex-col gap-[24px] items-center">
-         <h1 className="text-[32px] md:text-[38px] lg:text-[48px] font-[700] leading-[41.6px] md:leading-[67.2px]">Courses</h1>
-         <p className="text-[13px] lg:text-[18px] font-[400] leading-[27px]">
+         <h1 id="Rye" className="text-[32px] md:text-[38px] lg:text-[48px] font-[700] leading-[41.6px] md:leading-[67.2px]">Courses</h1>
+         <p id='inter' className="text-[13px] lg:text-[18px] font-[400] leading-[27px]">
            Your Ultimate Guide to Learning
          </p>
        </div>

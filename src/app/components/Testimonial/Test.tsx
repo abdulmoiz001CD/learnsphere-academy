@@ -9,8 +9,8 @@ export default function Test() {
 
 
        <div className="flex flex-col gap-[24px] text-start">
-         <h1 className="text-[48px] font-[700] leading-[57.6px]">Customer testimonials</h1>
-         <p className="text-[18px]  font-[400] leading-[27px]">
+         <h1 id="Rye" className="text-[48px] font-[700] leading-[57.6px]">Customer testimonials</h1>
+         <p id="inter" className="text-[18px]  font-[400] leading-[27px]">
          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
          </p>
        </div>

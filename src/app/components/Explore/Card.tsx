@@ -18,8 +18,8 @@ const CourseCard: React.FC<Card> = ({ img, heading, para}) => {
       </div>
 
       <div className="HeaCon max-w-[216px] h-57px">
-        <h3 className="font-[600] text-[18px] leading-[30px]">{heading}</h3>
-        <p className="text-[16px] leading-[27px]">{para}</p>
+        <h3 className="inter font-[600] text-[18px] leading-[30px]">{heading}</h3>
+        <p id="inter" className="text-[16px] leading-[27px]">{para}</p>
       </div>
     </div>
   );

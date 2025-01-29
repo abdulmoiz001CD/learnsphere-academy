@@ -30,7 +30,7 @@ function Header() {
 
      
 
-        <div className="font-latin text-[18.07px] lg:text-[25.07px]  xxl:text-[30.07px]  font-[700] leading-[20.34px] sm:leading-[30.34px] lg:w-[90px]"> Ddsgnr</div>
+        <div id="Rye" className="text-[18.07px] lg:text-[25.07px]  xxl:text-[30.07px]  font-[700] leading-[20.34px] sm:leading-[30.34px] lg:w-[90px]"> Ddsgnr</div>
         </div>
 
 
@@ -40,11 +40,11 @@ function Header() {
         <SheetTrigger><FaBars className="w-[20px] sm:w-[24px] md:hidden text-[16px] sm:text-[18px]"/></SheetTrigger>
         <SheetContent>
           <SheetHeader>
-            <SheetTitle className="mt-[2rem] mb-[1rem] text-center sm:text-[1.5rem]">Learn Sphere Academy</SheetTitle>
+            <SheetTitle id="Rye" className="mt-[2rem] mb-[1rem] text-center sm:text-[1.5rem]">Learn Sphere Academy</SheetTitle>
             <SheetDescription>
         
 
-<ul className="flex flex-col  space-y-4 text-center">
+<ul id="inter" className="flex flex-col  space-y-4 text-center">
           <li className="leading-[15px] pb-[3px] md:leading-[24px]  border-b-[1px] border-b-transparent hover:border-b-black cursor-pointer">
             Home
           </li>
@@ -87,7 +87,7 @@ function Header() {
 
 
 
-        <ul id="roboto-thin" className="hidden md:flex text-base justify-between items-center md:gap-[16px] bg-white max-w-[910px] w-full  pl-[10px]">
+        <ul id="Rye" className="hidden md:flex text-base justify-between items-center md:gap-[16px] bg-white max-w-[910px] w-full  pl-[10px]">
           <li className="leading-[15px] md:leading-[24px] sm:text-[9px] lg:text-[13px] xl:text-[16px] xxl:text-[20px] border-b-[1px] border-b-transparent hover:border-b-black cursor-pointer">Home</li>
           <li className="leading-[15px] md:leading-[24px] sm:text-[9px] lg:text-[13px] xl:text-[16px] xxl:text-[20px] border-b-[1px] border-b-transparent hover:border-b-black cursor-pointer">Courses</li>
           <li className="leading-[15px] md:leading-[24px] sm:text-[9px] lg:text-[13px] xl:text-[16px] xxl:text-[20px] border-b-[1px] border-b-transparent hover:border-b-black cursor-pointer">Services</li>
